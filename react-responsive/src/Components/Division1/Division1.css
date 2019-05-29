@@ -1,0 +1,86 @@
+.Leftside {
+    float: left;
+    width: 50%;
+    background-color: white;
+    height: 400px;
+    /* margin-top: 5px; */
+    text-align: left;
+    padding: 43px;
+}
+.Rightside{
+    float: right;
+    width: 50%;
+}
+
+.Rightside img {
+        width: 85%;
+        height: 400px;
+        padding: 16px;
+    
+}
+.Leftside h1{
+    font-weight: bold;
+    
+}
+.Leftside h5{
+    font-weight: bold;
+    margin-top: 27px;
+    color: grey;
+}
+.Leftside p{
+    font-weight: bold;
+    margin-top: 30px;
+    color: grey;
+}
+.Leftside button{
+    font-weight: bold;
+    margin-top: 47px;
+    border: 2px solid red;
+    padding: 7px;
+}
+
+.Division1{
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    height: 420px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .Rightside {
+        float: right;
+        width: 100%;
+    }
+    .Rightside img {
+        width: 100%;
+        height: 345px;
+        padding: 25px;
+        border-radius: 41px;
+    }
+    .Leftside {
+        float: left;
+        width: 100%;
+        background-color: white;
+        height: 400px;
+        margin-top: 5px;
+        text-align: left;
+        padding: 13px;
+        margin-left: 8px;
+    }
+    .Leftside button {
+        font-weight: bold;
+        margin-top: 24px;
+        border: 2px solid red;
+        padding: 12px;
+        border-radius: 5px;
+    }
+    .Division1 {
+        border-bottom-style: solid;
+        border-bottom-color: red;
+        height: 754px;
+    }
+    .logo img {
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        padding: 11px;
+    }
+}

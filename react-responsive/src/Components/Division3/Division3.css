@@ -1,0 +1,17 @@
+.Division3 h3{
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-top: 47px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .Division3 h3 {
+        text-align: left;
+        margin-left: 20px;
+        text-decoration: underline;
+        -webkit-text-decoration-color: red;
+        text-decoration-color: red;
+        margin-top: 30px;
+    }
+}

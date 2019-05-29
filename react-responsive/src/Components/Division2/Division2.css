@@ -1,0 +1,30 @@
+.Division2 h3{
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.Division2 {
+    height: 500px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+
+    .Division2 {
+        height: 1486px;
+        border-bottom-style: solid;
+        border-bottom-color: red;
+    }
+    
+}
+@media screen and (min-device-width: 760px) and (max-device-width: 1030px) {
+
+    .Division2 {
+        height: 520px;
+        border-bottom-style: solid;
+        border-bottom-color: red;
+    }
+    
+}

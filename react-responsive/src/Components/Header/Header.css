@@ -1,0 +1,140 @@
+
+.images{
+    float: right;
+}
+.Header{
+    height: 100px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+.heading{
+    float: left;
+    margin-left: 92px;
+    margin-top: 43px;    
+}
+
+    .fa-facebook {
+    background: white;
+    color: gray;
+    padding: 8px;
+    font-size: 19px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 31px 4px;
+  }
+  .fa-twitter {
+    background: white;
+    color: gray;
+    padding: 8px;
+    font-size: 19px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 31px 4px;
+  }
+  .fa-instagram {
+    background: white;
+    color: gray;
+    padding: 8px;
+    font-size: 19px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 31px 4px;
+  }
+  .fa-snapchat-ghost {
+    background: white;
+    color: gray;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 8px;
+    font-size: 19px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 31px 4px;
+  }
+  .fa-yahoo {
+    background: white;
+    color: gray;
+    padding: 8px;
+    font-size: 19px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 31px 4px;
+  }  
+   @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .Header {
+      height: 138px;
+      background-color: white;
+      border-bottom-style: solid;
+      border-bottom-color: red;
+  }
+  .heading {
+    float: left;
+    margin-left: 32px;
+    margin-top: 2px;
+}    
+.fa-facebook {
+  background: white;
+  color: gray;
+  padding: 1px;
+  font-size: 19px;
+  width: 9px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+}
+.fa-twitter {
+  background: white;
+  color: gray;
+  padding: 8px;
+  font-size: 19px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+}
+.fa-snapchat-ghost {
+  background: white;
+  color: gray;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 4px;
+  font-size: 19px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+}
+.fa-instagram {
+  background: white;
+  color: gray;
+  padding: 8px;
+  font-size: 19px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+}
+.fa-yahoo {
+  background: white;
+  color: gray;
+  padding: 5px;
+  font-size: 19px;
+  width: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 31px 4px;
+}
+}
+
+@media screen and (min-device-width: 410px) and (max-device-width: 740px) {
+  
+.heading {
+  float: left;
+  margin-left: 32px;
+  margin-top: 92px;
+}    
+}

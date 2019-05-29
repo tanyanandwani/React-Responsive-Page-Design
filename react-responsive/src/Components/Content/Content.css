@@ -1,0 +1,50 @@
+.Content{
+ width: 48%;
+ background-color: white;
+ margin-top:23px;
+ margin-left: 3px;
+ height: 188px;
+    float: left;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.info{
+    width: 70%;
+    float: right;
+    text-align: left;
+}
+.logo img{
+    width:100px;
+    height:100px;
+    margin-top: 42px;
+    padding: 11px
+}
+.info h5{
+    font-weight: bold;
+}
+.info p{
+    color:grey;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .Content {
+        width: 100%;
+        background-color: white;
+        margin-top: 23px;
+        margin-left: 3px;
+        height: 330px;
+        float: left;
+    }
+    .logo {
+        width: 100%;
+        float: none;
+    }
+    .info {
+        width: 100%;
+        float: none;
+        text-align: left;
+        padding: 10px;
+        /* height: 227px; */
+    }
+}

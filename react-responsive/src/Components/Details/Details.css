@@ -1,0 +1,70 @@
+.Details {
+    float: left;
+    width: 40%;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 44px;
+    padding: 31px;
+    box-shadow: 2px 2px #DCDCDC;
+    background-color: white;
+}
+button{
+    border-color: red;
+    color: red;
+}
+.Details h3{
+    font-weight: bold;
+}
+.Details p{
+    color:grey;
+}
+.Details img{
+    border-radius: 5px;
+}
+.Details h5{
+    font-weight: bold;
+   
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .Details img {
+        border-radius: 5px;
+        width: 320px;
+        padding: 12px;
+        margin-left: 10px;
+    }
+    .Details {
+        float: left;
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 44px;
+        padding: 8px;
+        box-shadow: 0px 0px #DCDCDC;
+        background-color: white;
+    }
+    .Details h5 {
+       
+        font-weight: bold;
+        margin-left: 21px;
+    }
+    .Details p{
+        color:grey;
+        margin-left: 21px;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .Details {
+        float: left;
+        width: 47%;
+        text-align: left;
+        margin-left: 4px;
+        margin-top: 44px;
+        padding: 31px;
+        box-shadow: 2px 2px #DCDCDC;
+        background-color: white;
+    }
+    .Details img {
+        border-radius: 5px;
+        width: 300px;
+    }
+}
